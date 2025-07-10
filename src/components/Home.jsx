@@ -29,9 +29,9 @@ const Home = () => {
             delaySpeed={2500}
           />
         </h4>
-        <a href="/portfolionaufal/cv-naufal-afif.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/portfolionaufal/cv-naufal-afif.pdf" download="CV-Muhammad-Naufal-Afif">
           <button className='text-[0.8rem] h-[1.8rem] w-[7.5rem] rounded-[0.5rem] md:text-[0.9rem] md:h-[1.8rem] md:w-[7.5rem] md:rounded-[0.5rem] lg:text-[1.1rem] lg:h-[3rem] border-2 lg:w-[10rem] lg:rounded-[1rem] cursor-pointer transition-transform duration-300 active:scale-105 dark:bg-gray-900 bg-[#101733] dark:border-[#00D8FF] dark:text-[#00D8FF] text-white dark:hover:bg-gray-700 hover:bg-blue-900 md:mt-0 mt-5'>
-            Lihat CV
+            Download CV
           </button>
         </a>
         
