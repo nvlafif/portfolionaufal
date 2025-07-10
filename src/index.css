@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+:root {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar default (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;              /* lebar scrollbar */
+  height: 12px;             /* tinggi scrollbar horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAF7;      /* warna background track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #101733;      /* warna utama scrollbar */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00D8FF;         /* warna saat hover */
+}
+
+@layer utilities {
+  .animate-blink {
+    animation: blink 1.2s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+}
+
+
+/* Scrollbar dark mode */
+.dark ::-webkit-scrollbar-track {
+  background: #030712; /* warna track saat dark */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #00D8FF; /* warna thumb saat dark */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF; /* warna thumb saat hover (dark) */
+}
+
