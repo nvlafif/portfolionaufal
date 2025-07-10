@@ -67,7 +67,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifUKK})`} }>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat Kompetensi Keahlian.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Kompetensi Keahlian.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -77,7 +77,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifDataScientist})`}}>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat Data Scientist.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Data Scientist.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -87,7 +87,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifOnlineShop})`}}>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat Bisnis Online Shop.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Bisnis Online Shop.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -97,7 +97,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifDiklat})`, backgroundPosition: 'center 30%'}}>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat BINTALFISDIS.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat BINTALFISDIS.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -107,7 +107,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifPython})`} }>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat Python.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Python.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -117,7 +117,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifVisualData})`} }>
                 <div className={`${shadowClass}`}></div>
-                <a href="/Sertifikat Visualisasi Data.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Visualisasi Data.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
@@ -127,7 +127,7 @@ const Certificate = () => {
               <div className={`${bgClass}`} 
               style={{backgroundImage: ` url(${sertifProposal})`}}>
                 <div className={`${shadowClass}`}></div>
-                <a href="Sertifikat Pelatihan Proposal.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/portfolionaufal/Sertifikat Pelatihan Proposal.pdf" target="_blank" rel="noopener noreferrer">
                   <button className={`${buttonClass}`}>
                     Lihat
                   </button>
