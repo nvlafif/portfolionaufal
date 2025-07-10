@@ -7,7 +7,7 @@ import reactjsIcon from '../assets/svg/Skills/reactjs.svg';
 import tailwindIcon from '../assets/svg/Skills/tailwind.svg';
 import javascriptIcon from '../assets/svg/Skills/javascript.svg';
 import phpIcon from '../assets/svg/Skills/php.svg';
-import laravelIcon from '../assets/svg/Skills/laravel.svg';
+import gitIcon from '../assets/svg/Skills/git.svg'
 import mysqlIcon from '../assets/svg/Skills/mysql.svg';
 
 const Skills = () => {
@@ -54,9 +54,9 @@ const Skills = () => {
       description: 'PHP adalah bahasa pemrograman server-side yang digunakan untuk membangun website dinamis dan aplikasi web. PHP dijalankan di server, menghasilkan HTML yang dikirim ke browser pengguna.',
     },
     {
-      name: 'Laravel',
-      icon: laravelIcon,
-      description: 'Laravel adalah framework PHP modern yang dirancang untuk membangun aplikasi web dengan cara yang cepat, elegan, dan efisien. Laravel membantu developer menulis kode yang rapi dan terstruktur untuk project berskala kecil hingga besar.',
+      name: 'Git',
+      icon: gitIcon,
+      description: 'Git adalah sistem kontrol versi modern yang dirancang untuk melacak perubahan kode dalam pengembangan perangkat lunak secara cepat, efisien, dan terdistribusi. Git membantu developer mengelola versi proyek dengan rapi dan terstruktur, baik untuk proyek berskala kecil maupun besar, serta memudahkan kolaborasi antar tim dalam pengembangan aplikasi.',
     },
     {
       name: 'MySQL',
