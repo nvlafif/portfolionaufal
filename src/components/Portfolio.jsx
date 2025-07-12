@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import kebabGoceng from '../assets/images/KebabGoceng.JPG'
 import recreateNetflix from '../assets/images/Netflix.JPG'
 import manajemenTani from '../assets/images/Manajemen-Hasil-Tani.JPG'
+import portfolioNaufal from '../assets/images/PortfolioNaufal.JPG'
 
 
 
@@ -128,7 +129,7 @@ const Portfolio = () => {
 
                 {/* Project 1 */}
                 <div id='project-1' className={`${projectClass} bg-[${kebabGoceng}]`}
-                style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${kebabGoceng})`}}>
+                style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${portfolioNaufal})`}}>
                   <h2 className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out lg:text-[32px] text-white font-black text-center`} >Portfolio Website</h2>
                 
                   <p className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out text-[0.3rem] md:text-[0.5rem] lg:text-[12px] text-white font-regular text-start`}>
@@ -141,7 +142,7 @@ const Portfolio = () => {
                       <i className={`ri-tailwind-css-fill ${languageIconClass}`}></i>
                       <i className={`ri-reactjs-fill ${languageIconClass} `}></i>
                     </div>
-                      <a href="" target="_blank" rel="noopener noreferrer" className='opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out'>
+                      <a href="https://nvlafif.github.io/portfolionaufal/" target="_blank" rel="noopener noreferrer" className='opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out'>
                         <button className={`  bg-[${colorSecondary}] rounded-[0.3rem] w-[40px] h-[14px] text-[0.3rem] font-normal sm:w-[60px] sm:h-[21px] sm:text-[0.4rem] md:w-[70px] md:h-[24px] md:text-[0.5rem] lg:rounded-[1rem] lg:w-[140px] lg:h-[49px] mt-0 lg:text-[1rem] text-[${colorPrimary}] hover:bg-blue-400 dark:hover:bg-[#00BCFF] cursor-pointer lg:font-semibold`}>
                           Visit Website
                         </button>
@@ -150,7 +151,30 @@ const Portfolio = () => {
                 </div>
 
                 {/* Project 2 */}
-               <div id='project-2' className={` ${projectClass} `}
+                <div id='project-2' className={` ${projectClass} `}
+                style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${manajemenTani})`}}>
+                  <h2 className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out lg:text-[32px] text-white font-black text-center`} >Manajemen Hasil Tani</h2>
+                
+                  <p className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out text-[0.3rem] md:text-[0.5rem] lg:text-[12px] text-white font-regular text-start`}>
+                    Aplikasi berbasis React untuk mencatat dan mengelola produk hasil pertanian, dibuat sebagai portofolio magang front-end developer dengan dukungan MockAPI.io sebagai simulasi backend REST API untuk pengujian dan pengembangan frontend.
+                  </p>
+                
+                  <div className='w-full h-fit flex justify-between items-center mt-1 lg:mt-3'>
+                    <div className="opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out grid-cols-3 flex-row flex justify-end items-start gap-2 relative self-start">
+                      <i className={`ri-html5-fill ${languageIconClass}`}></i>
+                      <i className={`ri-tailwind-css-fill ${languageIconClass}`}></i>
+                      <i className={`ri-reactjs-fill ${languageIconClass} `}></i>
+                    </div>
+                    <a href="https://nvl-manajemen-hasil-tani.vercel.app/" target="_blank" rel="noopener noreferrer" className='opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out'>
+                      <button className={`  bg-[${colorSecondary}] rounded-[0.3rem] w-[40px] h-[14px] text-[0.3rem] font-normal sm:w-[60px] sm:h-[21px] sm:text-[0.4rem] md:w-[70px] md:h-[24px] md:text-[0.5rem] lg:rounded-[1rem] lg:w-[140px] lg:h-[49px] mt-0 lg:text-[1rem] text-[${colorPrimary}] hover:bg-blue-400 dark:hover:bg-[#00BCFF] cursor-pointer lg:font-semibold`}>
+                        Visit Website
+                      </button>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Project 3 */}
+               <div id='project-3' className={` ${projectClass} `}
                 style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${recreateNetflix})`}}>
                   <h2 className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out lg:text-[32px] text-white font-black text-center`} >Recreate Netflix</h2>
                 
@@ -172,8 +196,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                {/* Project 3 */}
-                <div id='project-3' className={` ${projectClass} `}
+                {/* Project 4 */}
+                <div id='project-4' className={` ${projectClass} `}
                 style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${kebabGoceng})`}}>
                   <h2 className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out lg:text-[32px] text-white font-black text-center`} >Kebab Goceng</h2>
                 
@@ -193,28 +217,7 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                {/* Project 4 */}
-                <div id='project-4' className={` ${projectClass} `}
-                style={{backgroundImage: `linear-gradient(to top, #030712 10%, #030712 30%, rgba(0, 0, 0, 0) 100%), url(${manajemenTani})`}}>
-                  <h2 className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out lg:text-[32px] text-white font-black text-center`} >Manajemen Hasil Tani</h2>
                 
-                  <p className={`opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out text-[0.3rem] md:text-[0.5rem] lg:text-[12px] text-white font-regular text-start`}>
-                    Aplikasi berbasis React untuk mencatat dan mengelola produk hasil pertanian, dibuat sebagai portofolio magang front-end developer dengan dukungan MockAPI.io sebagai simulasi backend REST API untuk pengujian dan pengembangan frontend.
-                  </p>
-                
-                  <div className='w-full h-fit flex justify-between items-center mt-1 lg:mt-3'>
-                    <div className="opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out grid-cols-3 flex-row flex justify-end items-start gap-2 relative self-start">
-                      <i className={`ri-html5-fill ${languageIconClass}`}></i>
-                      <i className={`ri-tailwind-css-fill ${languageIconClass}`}></i>
-                      <i className={`ri-reactjs-fill ${languageIconClass} `}></i>
-                    </div>
-                    <a href="https://nvl-manajemen-hasil-tani.vercel.app/" target="_blank" rel="noopener noreferrer" className='opacity-0 group-hover:opacity-100 group-hover:flex transition-all duration-1000 ease-in-out'>
-                      <button className={`  bg-[${colorSecondary}] rounded-[0.3rem] w-[40px] h-[14px] text-[0.3rem] font-normal sm:w-[60px] sm:h-[21px] sm:text-[0.4rem] md:w-[70px] md:h-[24px] md:text-[0.5rem] lg:rounded-[1rem] lg:w-[140px] lg:h-[49px] mt-0 lg:text-[1rem] text-[${colorPrimary}] hover:bg-blue-400 dark:hover:bg-[#00BCFF] cursor-pointer lg:font-semibold`}>
-                        Visit Website
-                      </button>
-                    </a>
-                  </div>
-                </div>
 
               </div>
               

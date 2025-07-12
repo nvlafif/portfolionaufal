@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter'
-import ProfilImage from '../assets/images/profil.png'
+import ProfilImage from '../assets/images/profil.webp'
 
 // bg-gradient-to-t from-[#101733]/10 via-[#F8FAF7] to-[#F8FAF7]
 
