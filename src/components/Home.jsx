@@ -42,7 +42,7 @@ const Home = () => {
         <img
           src={ProfilImage}
           alt="Profil"
-          className='dark:shadow-[0px_0px_25px_rgba(0,188,255,0.8)] dark:bg-gray-900 w-auto h-[350px] content-between rounded-[200px] mx-auto sm:h-[430px] sm:w-auto md:w-auto md:h-fit'
+          className='mt-10 dark:shadow-[0px_0px_25px_rgba(0,188,255,0.8)] dark:bg-gray-900 w-auto h-[350px] content-between rounded-[200px] mx-auto sm:h-[430px] sm:w-auto md:w-auto md:h-fit'
         />
       </div>
     </section>
